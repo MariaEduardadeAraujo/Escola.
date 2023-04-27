@@ -15,16 +15,21 @@
 .cabeçalho-imagem {
     width: 6%;
 }
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: #eeff03;
+}
 
-.cabeçalho-lista-item {
+.cabeçalho-lista-item a{
     display: inline-block;
     margin: 0 150px;
     font-size: 20px;
+    color: #eeff03;
 }
 .escola-imagem{
     width: 25%;
 }
-.Escola{
+#Escola{
     background-image: linear-gradient(#3B8B34,#6FF064);
     color: #eeff03;
     display: flex;
@@ -36,7 +41,7 @@
     width: 35%;
     color: #eeff03;
 }
-.estudantes{
+#estudantes{
     background-color: #6FF064;
     color: #eeff03;;
 }
